@@ -11,4 +11,4 @@ Adding an overlay view to the MPMoviePlayerController is not straightforward bec
 
 Please do not use this approach for any other situation.
 
-If you want to add an overlay view to the MPMoviePlayerController non-fullscreen view see Apple's [Movie Player](https://developer.apple.com/library/ios/samplecode/MoviePlayer_iPhone/Introduction/Intro.html) sample code. Be aware that Apple's sample has not been updated beyond iOS4 and has issues on iOS6+. It needs a fullscreen check added to <code>viewWillAppear:</code> and <code>viewDidDisappear:</code> as shown in this repository.
+If you want to add an overlay view to the MPMoviePlayerController non-fullscreen view see Apple's [Movie Player](https://developer.apple.com/library/ios/samplecode/MoviePlayer_iPhone/Introduction/Intro.html) sample code.
