@@ -14,24 +14,10 @@
 		88F67C4818849816007FB170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67C4718849816007FB170 /* main.m */; };
 		88F67C4C18849816007FB170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67C4B18849816007FB170 /* AppDelegate.m */; };
 		88F67C4F18849816007FB170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F67C4D18849816007FB170 /* Main.storyboard */; };
-		88F67C5218849816007FB170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67C5118849816007FB170 /* ViewController.m */; };
 		88F67C5418849816007FB170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F67C5318849816007FB170 /* Images.xcassets */; };
-		88F67C5B18849816007FB170 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F67C5A18849816007FB170 /* XCTest.framework */; };
-		88F67C5C18849816007FB170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F67C3B18849816007FB170 /* Foundation.framework */; };
-		88F67C5D18849816007FB170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F67C3F18849816007FB170 /* UIKit.framework */; };
-		88F67C6518849816007FB170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88F67C6318849816007FB170 /* InfoPlist.strings */; };
-		88F67C6718849816007FB170 /* MoviePlayerFullscreenOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67C6618849816007FB170 /* MoviePlayerFullscreenOverlayTests.m */; };
+		88F67C7218849845007FB170 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67C7118849845007FB170 /* VideoViewController.m */; };
+		88F67C7418849851007FB170 /* big_buck_bunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88F67C7318849851007FB170 /* big_buck_bunny.mp4 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		88F67C5E18849816007FB170 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F67C3018849816007FB170 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88F67C3718849816007FB170;
-			remoteInfo = MoviePlayerFullscreenOverlay;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		88F67C3818849816007FB170 /* MoviePlayerFullscreenOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayerFullscreenOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,14 +31,11 @@
 		88F67C4A18849816007FB170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88F67C4B18849816007FB170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88F67C4E18849816007FB170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88F67C5018849816007FB170 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88F67C5118849816007FB170 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88F67C5318849816007FB170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		88F67C5918849816007FB170 /* MoviePlayerFullscreenOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerFullscreenOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F67C5A18849816007FB170 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		88F67C6218849816007FB170 /* MoviePlayerFullscreenOverlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlayerFullscreenOverlayTests-Info.plist"; sourceTree = "<group>"; };
-		88F67C6418849816007FB170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		88F67C6618849816007FB170 /* MoviePlayerFullscreenOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerFullscreenOverlayTests.m; sourceTree = "<group>"; };
+		88F67C7018849845007FB170 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		88F67C7118849845007FB170 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		88F67C7318849851007FB170 /* big_buck_bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_buck_bunny.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F67C5618849816007FB170 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88F67C5B18849816007FB170 /* XCTest.framework in Frameworks */,
-				88F67C5D18849816007FB170 /* UIKit.framework in Frameworks */,
-				88F67C5C18849816007FB170 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				88F67C4118849816007FB170 /* MoviePlayerFullscreenOverlay */,
-				88F67C6018849816007FB170 /* MoviePlayerFullscreenOverlayTests */,
 				88F67C3A18849816007FB170 /* Frameworks */,
 				88F67C3918849816007FB170 /* Products */,
 			);
@@ -93,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				88F67C3818849816007FB170 /* MoviePlayerFullscreenOverlay.app */,
-				88F67C5918849816007FB170 /* MoviePlayerFullscreenOverlayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,8 +86,9 @@
 				88F67C4A18849816007FB170 /* AppDelegate.h */,
 				88F67C4B18849816007FB170 /* AppDelegate.m */,
 				88F67C4D18849816007FB170 /* Main.storyboard */,
-				88F67C5018849816007FB170 /* ViewController.h */,
-				88F67C5118849816007FB170 /* ViewController.m */,
+				88F67C7018849845007FB170 /* VideoViewController.h */,
+				88F67C7118849845007FB170 /* VideoViewController.m */,
+				88F67C7318849851007FB170 /* big_buck_bunny.mp4 */,
 				88F67C5318849816007FB170 /* Images.xcassets */,
 				88F67C4218849816007FB170 /* Supporting Files */,
 			);
@@ -130,24 +102,6 @@
 				88F67C4418849816007FB170 /* InfoPlist.strings */,
 				88F67C4718849816007FB170 /* main.m */,
 				88F67C4918849816007FB170 /* MoviePlayerFullscreenOverlay-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		88F67C6018849816007FB170 /* MoviePlayerFullscreenOverlayTests */ = {
-			isa = PBXGroup;
-			children = (
-				88F67C6618849816007FB170 /* MoviePlayerFullscreenOverlayTests.m */,
-				88F67C6118849816007FB170 /* Supporting Files */,
-			);
-			path = MoviePlayerFullscreenOverlayTests;
-			sourceTree = "<group>";
-		};
-		88F67C6118849816007FB170 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				88F67C6218849816007FB170 /* MoviePlayerFullscreenOverlayTests-Info.plist */,
-				88F67C6318849816007FB170 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +126,6 @@
 			productReference = 88F67C3818849816007FB170 /* MoviePlayerFullscreenOverlay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		88F67C5818849816007FB170 /* MoviePlayerFullscreenOverlayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88F67C6D18849816007FB170 /* Build configuration list for PBXNativeTarget "MoviePlayerFullscreenOverlayTests" */;
-			buildPhases = (
-				88F67C5518849816007FB170 /* Sources */,
-				88F67C5618849816007FB170 /* Frameworks */,
-				88F67C5718849816007FB170 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				88F67C5F18849816007FB170 /* PBXTargetDependency */,
-			);
-			name = MoviePlayerFullscreenOverlayTests;
-			productName = MoviePlayerFullscreenOverlayTests;
-			productReference = 88F67C5918849816007FB170 /* MoviePlayerFullscreenOverlayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +134,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Soleares;
-				TargetAttributes = {
-					88F67C5818849816007FB170 = {
-						TestTargetID = 88F67C3718849816007FB170;
-					};
-				};
 			};
 			buildConfigurationList = 88F67C3318849816007FB170 /* Build configuration list for PBXProject "MoviePlayerFullscreenOverlay" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +149,6 @@
 			projectRoot = "";
 			targets = (
 				88F67C3718849816007FB170 /* MoviePlayerFullscreenOverlay */,
-				88F67C5818849816007FB170 /* MoviePlayerFullscreenOverlayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,15 +160,8 @@
 			files = (
 				88F67C5418849816007FB170 /* Images.xcassets in Resources */,
 				88F67C4618849816007FB170 /* InfoPlist.strings in Resources */,
+				88F67C7418849851007FB170 /* big_buck_bunny.mp4 in Resources */,
 				88F67C4F18849816007FB170 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88F67C5718849816007FB170 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88F67C6518849816007FB170 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,29 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F67C5218849816007FB170 /* ViewController.m in Sources */,
 				88F67C4C18849816007FB170 /* AppDelegate.m in Sources */,
 				88F67C4818849816007FB170 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88F67C5518849816007FB170 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88F67C6718849816007FB170 /* MoviePlayerFullscreenOverlayTests.m in Sources */,
+				88F67C7218849845007FB170 /* VideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		88F67C5F18849816007FB170 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 88F67C3718849816007FB170 /* MoviePlayerFullscreenOverlay */;
-			targetProxy = 88F67C5E18849816007FB170 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		88F67C4418849816007FB170 /* InfoPlist.strings */ = {
@@ -288,14 +195,6 @@
 				88F67C4E18849816007FB170 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		88F67C6318849816007FB170 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88F67C6418849816007FB170 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -368,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -401,48 +300,6 @@
 			};
 			name = Release;
 		};
-		88F67C6E18849816007FB170 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlayerFullscreenOverlay.app/MoviePlayerFullscreenOverlay";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MoviePlayerFullscreenOverlay/MoviePlayerFullscreenOverlay-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MoviePlayerFullscreenOverlayTests/MoviePlayerFullscreenOverlayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		88F67C6F18849816007FB170 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlayerFullscreenOverlay.app/MoviePlayerFullscreenOverlay";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MoviePlayerFullscreenOverlay/MoviePlayerFullscreenOverlay-Prefix.pch";
-				INFOPLIST_FILE = "MoviePlayerFullscreenOverlayTests/MoviePlayerFullscreenOverlayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,14 +317,6 @@
 			buildConfigurations = (
 				88F67C6B18849816007FB170 /* Debug */,
 				88F67C6C18849816007FB170 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		88F67C6D18849816007FB170 /* Build configuration list for PBXNativeTarget "MoviePlayerFullscreenOverlayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88F67C6E18849816007FB170 /* Debug */,
-				88F67C6F18849816007FB170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88F67C5818849816007FB170"
-               BuildableName = "MoviePlayerFullscreenOverlayTests.xctest"
-               BlueprintName = "MoviePlayerFullscreenOverlayTests"
-               ReferencedContainer = "container:MoviePlayerFullscreenOverlay.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
